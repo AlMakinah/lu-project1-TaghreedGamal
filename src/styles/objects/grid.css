@@ -1,0 +1,45 @@
+.container {
+	max-width: var(--grid-container);
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: var(--gutter);
+	padding-right: var(--gutter);
+}
+
+.row {
+	margin-left: calc(-1 * var(--gutter));
+	margin-right: calc(-1 * var(--gutter));
+}
+
+.row::before,
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+	margin-left: - var(--gutter);
+	margin-right: - var(--gutter);
+}
+
+.row > .col {
+	float: left;
+	padding-left: var(--gutter);
+	padding-right: var(--gutter);
+}
+
+.row--2 > .col {
+	width: 50%;
+}
+.row--4 > .col{
+    width: 25%;
+    &--2 {
+        width: 50%;
+    }
+}
+.row--3 > .col {
+	width: 33.33%;
+}
+
+.row--3 > .col--2 {
+	width: 66.66%;
+}

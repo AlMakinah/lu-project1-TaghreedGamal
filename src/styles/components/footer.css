@@ -1,0 +1,9 @@
+.footer{
+	border: 1px solid var(--textlightgrey-color);
+	border-right: 0px;
+	border-left: 0px;
+
+	.copyright{
+	text-align: center;
+     }    
+}

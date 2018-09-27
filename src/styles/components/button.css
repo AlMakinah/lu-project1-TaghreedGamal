@@ -1,0 +1,41 @@
+.button {
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 1px;
+  width: 450px;
+  height: 40px;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 2%;
+  &--primary{
+  	background-color: var(--primary-color);
+  	color:#fff;
+  	border-color:var(--primary-color);
+   }
+  &--secondary{
+    background-color: var(--textoffwhite-color);
+    border-color: var(--textoffwhite-color);
+    color:var(--secondary-color);
+    width: 418px;
+   }
+}
+
+.card-button{
+  width: 68px;
+  height: 24px;
+  border: 1px solid var(--textgrey-color);
+  color: var(--textgrey-color);
+  background-color:var(--textwhite-color);
+  border-radius:4px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 1.5% 2%;
+  img{
+    float: left;
+  }
+  &--copy{
+    width: 111px;
+  }
+}

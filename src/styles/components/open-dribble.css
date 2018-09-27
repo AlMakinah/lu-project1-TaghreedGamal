@@ -1,0 +1,86 @@
+.open-dribble{
+	width:700px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding-bottom: 3%;
+	height: auto;
+	margin-left: 20%;
+	border:1px solid var(--textlightgrey-color);
+	border-radius: 8px;
+	background-color:var(--textoffwhite-color); 
+	&__header{
+   		&__image{
+     		width: 40px;
+       		height: 40px;
+       		border-radius: 50%;
+       		margin-left: 15%;
+       		margin-top: 50%;
+   		}
+   		&__name{
+    		font-size: 16px;
+    		line-height: 1.5;
+    	}	
+    	&__auther{
+    		font-size: 13px;
+    		span{
+    			color: var(--textlightgrey-color);
+    		}
+    	}
+    	&__buttons{
+    		display: flex;
+    		margin-left: 30%;
+    		margin-top: 10%;
+    		justify-content: space-evenly;
+    	}
+     }	
+    &__full-image{
+   		background-color:var(--textwhite-color); 
+   		img{
+   			width: 100%;
+   			padding: 3%;
+    		}
+    }
+    &__content{
+    	padding-left: 4%;
+    	p{
+    		font-size: 13px;
+    		line-height: 1.54;
+    	}
+    	&__Responses{
+    		&__last {
+    			display: flex;
+    			justify-content: space-between;
+    		.date{
+    			font-size: 11px;
+    		}	
+    		}
+
+    	} 
+    }
+    &__side-date{
+    	padding-right: 13%;
+    	padding-top: 5%;
+    	&__actions{
+    		margin-top: 25%;
+    		p{
+    			font-size: 11px;
+    			color: var(--textlightgrey-color);
+    			img{
+    				padding-right: 2%;
+    			}
+
+    		}
+    	}
+    	.card-button{
+    	   float: right;
+        }
+    }
+
+}
+.under_line{
+ 	width: 100%;
+ 	height: 1px;
+ 	margin-top: 2px;
+ 	margin-bottom: 2px;
+ 	background-color:var(--textlightgrey-color);
+ }

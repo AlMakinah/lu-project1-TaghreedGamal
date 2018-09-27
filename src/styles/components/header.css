@@ -1,0 +1,23 @@
+.header {
+	background: #333333;
+	height: 50px;
+    padding: 10px;
+}
+
+.header__logo {
+	margin: 0;
+	padding: 2px;
+    background-color: white;
+	
+}
+.header__user-area{
+    float: right;
+}
+.header__menu-link{
+    Font Size: 16px;
+    line-height: 28px;
+     text-align: Left;
+    color: var(--textlightgrey-color);
+    padding-left: 2px;
+    padding-right: 5%;
+}

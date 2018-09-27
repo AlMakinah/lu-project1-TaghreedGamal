@@ -1,0 +1,36 @@
+.container
+	section    
+		.row
+			h1.page__title Dribbles
+			ul.row.row--4
+				-for (var i = 0; i < 8; i++) {
+					.col
+						li
+							.card
+								.card__hover
+									img.card__image(src="images/card1.png")
+									.overlay
+										.card__description
+											h3 Dribble title
+											p Lots of talk words I dont know what to say per say but I guses we can hold about 4 lines then ...
+											h5 August 30,2018
+								.card__actions
+									p 
+										a(class='card__seen' href='#')
+											span.visually-hidden seen	
+									p    
+										a(class='card__comment' href='#') 
+										span.visually-hidden comment
+									p  
+										a(class='card__like' href='#')
+										span.visually-hidden like
+							.card__auther 
+								img.card__auther__image(src="images/auth-img.png")      
+								a(class='card__auther__name' href='#') someone name  
+				-}
+.container
+	section
+		.row
+			.login__area
+				.button.button--primary Signup to continue
+				.button.button--secondary or sign in

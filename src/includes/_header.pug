@@ -1,0 +1,29 @@
+//header.header
+//  h1 Our website
+//  nav
+//    ul
+//      li(class=page === 'home' ? 'active' : ''): a(href="index.html") Home
+//      li: a(href="#") About
+//      li: a(href="#") Products
+//      li: a(href="#") Services
+//      li(class=page === 'contact' ? 'active' : ''): a(href="contact.html") Contact
+//  - if (loggedIn) {
+//    p Welcome, Ayman Maher
+//  - }
+header.header
+     .container
+      .row
+       .row.row--4
+        .col
+            img.header__logo(src="images/dribbble-logo.gif")
+            span.visually-hidden Dribble
+        .col
+            .header__menu
+            a.header__menu-link(href="#") Dribbles
+            a.header__menu-link(href="#") Buckets
+            a.header__menu-link(href="#") Users
+            a.header__menu-link(href="#") Lists
+        .col.col--2
+          .header__user-area
+               a.header__menu-link(href="#") Signup
+               a.header__menu-link(href="#") Signin   
