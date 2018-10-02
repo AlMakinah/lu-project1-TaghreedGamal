@@ -1,10 +1,12 @@
 .open-dribble{
 	width:700px;
-	margin-top: 5%;
+	/*margin-top: 5%;*/
 	margin-bottom: 5%;
 	padding-bottom: 3%;
 	height: auto;
-	margin-left: 20%;
+	/*margin-left: 20%;*/
+    overflow-y: auto;
+    overflow-x: hidden;
 	border:1px solid var(--textlightgrey-color);
 	border-radius: 8px;
 	background-color:var(--textoffwhite-color); 

@@ -8,29 +8,32 @@
 						li
 							.card
 								.card__hover
-									img.card__image(src="images/card1.png")
-									.overlay
-										.card__description
-											h3 Dribble title
-											p Lots of talk words I dont know what to say per say but I guses we can hold about 4 lines then ...
-											h5 August 30,2018
+									a(href="#card-modal" data-lity)
+										img.card__image(src="images/card1.png")
+										.overlay
+											.card__description
+												h3 Dribble title
+												p Lots of talk words I dont know what to say per say but I guses we can hold about 4 lines then ...
+												h5 August 30,2018
 								.card__actions
 									p 
-										a(class='card__seen' href='#')
-											span.visually-hidden seen	
+										a(class='card__seen' href='#') 4,234	
+											span.visually-hidden seen		
 									p    
-										a(class='card__comment' href='#') 
+										a(class='card__comment' href='#') 23
 										span.visually-hidden comment
 									p  
-										a(class='card__like' href='#')
+										a(class='card__like' href='#') 3
 										span.visually-hidden like
 							.card__auther 
 								img.card__auther__image(src="images/auth-img.png")      
 								a(class='card__auther__name' href='#') someone name  
 				-}
+			include _opendribble		
 .container
 	section
 		.row
 			.login__area
 				.button.button--primary Signup to continue
 				.button.button--secondary or sign in
+
