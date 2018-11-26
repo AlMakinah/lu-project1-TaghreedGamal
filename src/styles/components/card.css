@@ -11,8 +11,9 @@
 	    width: 100%;
 	}
 	&__actions{
-		margin-left: 45%;
-        margin-bottom: -20%;
+		display: flex;
+	    justify-content: flex-end;
+	    margin-bottom: -30px;
         
 		p{
 			display: inline-block;
@@ -23,25 +24,19 @@
 	&__seen{
 		    display: inline-block;
 		    background-image: url(/images/Exclude.png);
-		    width: 20px;
 		    background-repeat: no-repeat;
-		    height: 20px;
 		    padding-left: 20px;
 	}
 	&__comment{
 		    display: inline-block;
-		    background-image: url(/images/Ellipse.png);
-		    width: 20px;
+		    background-image: url(/images/comment.png);
 		    background-repeat: no-repeat;
-		    height: 20px;
 		    padding-left: 20px;
 	}
 	&__like{
 		    display: inline-block;
 		    background-image: url(/images/Heart.png);
-		    width: 20px;
 		    background-repeat: no-repeat;
-		    height: 20px;
 		    padding-left: 20px;
 	}
 	&__auther{
